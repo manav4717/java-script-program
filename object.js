@@ -39,3 +39,19 @@ console.log(person1?.address?.city)
 console.log(Object.keys(person1))
 console.log(Object.values(person1))
 console.log(Object.entries(person1))
+
+
+//
+const user ={
+    name : "user",
+    role : "Admin",
+    designation : "developer",
+    age : 24,
+    address :{
+        city : "keshod",
+        zipcode : "302220",
+        street : "123 main st."
+    }
+}
+const {name,age,role}=user
+console.log(name,age,role)
