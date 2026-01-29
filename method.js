@@ -38,3 +38,4 @@ console.log("concat() :",str.concat(" Welcome to the world of React JS"))
 console.log("split() :",str.split(" "))
 /* split() method to convert string into array */
 
+
